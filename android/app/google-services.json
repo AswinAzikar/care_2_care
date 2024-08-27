@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "459888383369",
+    "project_id": "caretocare-12",
+    "storage_bucket": "caretocare-12.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:459888383369:android:759018add3c71beb3b3d58",
+        "android_client_info": {
+          "package_name": "com.caretocare.caretocare"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDC-4xzv1UOGngiR0qu5ECciMza9oGmuEE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:459888383369:android:18acaf4e44c6cb153b3d58",
+        "android_client_info": {
+          "package_name": "com.example.care_to_care"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDC-4xzv1UOGngiR0qu5ECciMza9oGmuEE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
