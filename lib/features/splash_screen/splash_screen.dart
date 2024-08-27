@@ -83,6 +83,7 @@ class _SplashScreenState extends State<SplashScreen> {
           // break;
           case RegistrationState.completed:
           Navigator.pushNamedAndRemoveUntil(
+              // ignore: use_build_context_synchronously
               context, HomeScreen.path, (route) => false);
           break;
         }

@@ -19,6 +19,7 @@ class _HomeScreenState extends State<HomeScreen> {
     super.initState();
     FirebaseAuth.instance.userChanges().listen((user) {
       if (user == null) {
+        // ignore: use_build_context_synchronously
         Navigator.pushReplacementNamed(context, PhoneVerification.path);
       } else {}
     });
@@ -28,6 +29,7 @@ class _HomeScreenState extends State<HomeScreen> {
   Widget build(BuildContext context) {
     return const Scaffold(
       drawer: ProfileScreen(),
+      backgroundColor: Colors.green,
     );
   }
 }
