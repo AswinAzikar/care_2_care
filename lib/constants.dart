@@ -6,6 +6,8 @@ delayed({Duration duration = const Duration(seconds: 2)}) async {
   return await Future.delayed(duration);
 }
 
+const Color lightGreen = Color.fromARGB(255, 154, 231, 161);
+const Color lightBlue = Color(0xff);
 const double padding = 8;
 const double paddingLarge = 16;
 const double paddingXL = 32;

@@ -1,4 +1,6 @@
 import 'package:animations/animations.dart';
+import 'package:care_to_care/features/bottom_navigation_bar/bottom_navigation.dart';
+import 'package:care_to_care/features/navigation/navigation_screen.dart';
 // import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 
@@ -41,6 +43,9 @@ class AppRoute {
       case PhoneVerification.path:
         screen = const PhoneVerification();
         break;
+      case NavigationScreen.path:
+        screen = const NavigationScreen();
+
       default:
         return null;
     }

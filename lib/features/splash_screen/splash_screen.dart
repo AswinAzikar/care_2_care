@@ -1,3 +1,4 @@
+import 'package:care_to_care/features/navigation/navigation_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_animate/flutter_animate.dart';
 import '../../exporter.dart';
@@ -82,10 +83,9 @@ class _SplashScreenState extends State<SplashScreen> {
           //     context, ProgramSelectionForm.path, (route) => false);
           // break;
           case RegistrationState.completed:
-          Navigator.pushNamedAndRemoveUntil(
-              // ignore: use_build_context_synchronously
-              context, HomeScreen.path, (route) => false);
-          break;
+            Navigator.pushNamedAndRemoveUntil(
+                context, NavigationScreen.path, (route) => false);
+            break;
         }
       });
     });
